@@ -9,15 +9,13 @@
 <center>
     <h1>User Management</h1>
     <h2>
-        <a href="users?action=users">List All Users</a>
+        <a href="users?action=users" class="btn btn-success">List All Users</a>
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
     </h2>
 </center>
 <div align="center">
     <form method="post">
-        <table border="1" cellpadding="5">
-            <caption>
-                <h2>Add New User</h2>
-            </caption>
+        <table class="table">
             <tr>
                 <th>User Name:</th>
                 <td>
@@ -37,7 +35,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" align="center">
+                <td colspan="2" align="center" style="color: #cce5ff">
                     <input type="submit" value="Save"/>
                 </td>
             </tr>
